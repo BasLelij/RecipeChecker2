@@ -1,0 +1,151 @@
+#recipe-details {
+  margin-bottom: 50px;
+  width: 900px;
+}
+
+#recipe-details {
+  display: grid;
+  place-items: center;
+  background-color: white;
+  margin-left: 275px;
+  margin-right: 231px;
+}
+
+.bottom-half-details {
+  display: flex;
+}
+
+.bottom-half-details .left-side-details {
+  height: auto;
+}
+
+.bottom-half-details .left-side-details {
+  height: auto;
+}
+
+#recipe-details .WincLogo {
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  margin: 20px;
+}
+
+#recipe-details .details-images {
+  width: 900px;
+  height: 300px;
+}
+
+.bottom-half-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr auto;
+}
+
+.left-side-details {
+  background-color: white;
+  width: 450px;
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
+.left-side-details .recipe-yield {
+  font-weight: 500;
+}
+
+.left-side-details .recipe-time {
+  font-weight: 500;
+}
+
+.right-side-details {
+  background-color: white;
+  width: 450px;
+}
+
+/* styling of details */
+
+#recipe-details h2 {
+  color: #818589;
+  font-size: 16px;
+  background-color: white;
+  padding-left: 0px;
+}
+
+#recipe-details h1 {
+  font-size: 24px;
+}
+
+#recipe-details .cooking-time {
+  padding: 15px 5px 5px 0px;
+}
+
+#recipe-details .serving-amount-details {
+  padding: 5px 5px 5px 0px;
+}
+
+#recipe-details h3 {
+  font-size: 20px;
+  margin: 15px 0px;
+  font-weight: 445;
+}
+
+#recipe-details .ingredient-instructions {
+  margin: 15px 0px;
+}
+
+#recipe-details #health-label-paragraph {
+  margin: 16px 0px 5px 0px;
+}
+
+#recipe-details .health-labels-purple {
+  font-weight: bold;
+  color: purple;
+  background-clip: content-box;
+  background-color: #fadafc;
+  padding: 7px 15px 7px 0px;
+  border-radius: 15%;
+}
+
+#recipe-details #diet-label-paragraph {
+  margin: 22px 0px 5px 0px;
+}
+
+#recipe-details .diet-labels-green {
+  padding: 7px 15px 7px 0px;
+  border-radius: 15%;
+  font-weight: bold;
+  color: green;
+  background-clip: content-box;
+  background-color: #ebfbde;
+}
+
+#recipe-details #caution-label-paragraph {
+  margin: 22px 0px 5px 0px;
+}
+
+#recipe-details .caution-labels-orange {
+  padding: 7px 15px 7px 0px;
+  font-weight: bold;
+  color: orange;
+  background-clip: content-box;
+  background-color: #fdebd0;
+}
+
+#recipe-details h4 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: 530;
+}
+
+#recipe-details #nutrients-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#recipe-details .nutrient-spans {
+  display: inline-block;
+}
+
+#recipe-details .nutrient-labels {
+  margin: 0px 50px 30px 0px;
+  font-weight: 530;
+}

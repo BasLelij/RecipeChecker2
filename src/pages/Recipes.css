@@ -1,0 +1,154 @@
+#body {
+  background-color: #6495ed;
+}
+
+#main-page-wrapper {
+  margin-bottom: 50px;
+}
+
+.search-bar-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#search-bar {
+  text-align: center;
+  width: 250px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+header {
+  text-align: center;
+  width: 100%;
+  font-size: 45px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  color: white;
+  font-weight: 500;
+}
+
+/* unordered list */
+.grid-list {
+  display: grid;
+  background-color: #6495ed;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: auto;
+  justify-items: center;
+  align-items: center;
+  gap: 10px;
+  list-style-type: none;
+}
+
+/* list items */
+.grid-item {
+  justify-self: center;
+  align-self: center;
+  width: 320px;
+  height: 450px;
+  margin: 10px;
+  background-color: white;
+  text-align: center;
+  border-radius: 38px;
+  /* padding: 5px; */
+}
+
+ul li img {
+  width: 320px;
+  height: 230px;
+  border-radius: 38px 38px 0px 0px;
+}
+
+li {
+  transition: all 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+li:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+a h1:hover {
+  text-decoration: underline;
+}
+
+.meal-types {
+  margin-top: 3px;
+  color: #818589;
+  font-size: 14px;
+}
+
+.recipe-labels {
+  font-size: 23px;
+  font-weight: 430;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+h2 {
+  display: inline;
+  padding: 5px;
+  border-radius: 15%;
+  font-weight: bold;
+  color: green;
+  background-clip: content-box;
+  background-color: #ebfbde;
+}
+
+h6 {
+  display: inline;
+  padding: 5px;
+  border-radius: 15%;
+  font-weight: bold;
+  color: purple;
+  background-clip: content-box;
+  background-color: #fadafc;
+}
+
+.VV-Healt-Labels {
+  display: inline;
+  padding: 5px;
+  border-radius: 15%;
+  font-weight: bold;
+}
+
+.dish-type-div h4 {
+  display: inline;
+  color: #5a555a;
+  font-weight: bold;
+}
+
+.dish-type-div p {
+  display: inline;
+}
+
+.caution-div h5 {
+  display: inline;
+  padding: 5px;
+  font-weight: bold;
+  color: orange;
+  background-clip: content-box;
+  background-color: #fdebd0;
+}
+
+.diet-labels {
+  font-weight: bold;
+}
+
+#button-div {
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 295px;
+}
+
+#arrow-icon {
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+  margin-left: 0px;
+  padding: 10px;
+}
